@@ -1,0 +1,855 @@
+--- !ruby/object:Library
+books:
+- &40 !ruby/object:Book
+  title: To Say Nothing of the Dog
+  author: &1 !ruby/object:Author
+    author_name: Merle Maggio
+    biography: biography
+- !ruby/object:Book
+  title: The Heart Is Deceitful Above All Things
+  author: &3 !ruby/object:Author
+    author_name: Kristoffer Cummings
+    biography: biography
+- &63 !ruby/object:Book
+  title: The Green Bay Tree
+  author: *1
+- &27 !ruby/object:Book
+  title: The Violent Bear It Away
+  author: &2 !ruby/object:Author
+    author_name: Vallie Dicki
+    biography: biography
+- &41 !ruby/object:Book
+  title: A Monstrous Regiment of Women
+  author: *2
+- &10 !ruby/object:Book
+  title: O Pioneers!
+  author: &4 !ruby/object:Author
+    author_name: Zoe Heidenreich I
+    biography: biography
+- &11 !ruby/object:Book
+  title: Things Fall Apart
+  author: &5 !ruby/object:Author
+    author_name: Gerda Dach
+    biography: biography
+- &22 !ruby/object:Book
+  title: Françoise Sagan
+  author: *3
+- !ruby/object:Book
+  title: The Mirror Crack'd from Side to Side
+  author: *3
+- &33 !ruby/object:Book
+  title: The House of Mirth
+  author: &81 !ruby/object:Author
+    author_name: Dr. Efrain Waters
+    biography: biography
+- &26 !ruby/object:Book
+  title: In Dubious Battle
+  author: &84 !ruby/object:Author
+    author_name: Ericka Mraz
+    biography: biography
+- &31 !ruby/object:Book
+  title: A Farewell to Arms
+  author: &85 !ruby/object:Author
+    author_name: Jazmin Okuneva
+    biography: biography
+- &21 !ruby/object:Book
+  title: Let Us Now Praise Famous Men
+  author: &86 !ruby/object:Author
+    author_name: Javonte Gaylord
+    biography: biography
+- &59 !ruby/object:Book
+  title: Far From the Madding Crowd
+  author: &83 !ruby/object:Author
+    author_name: Shania Welch II
+    biography: biography
+- &50 !ruby/object:Book
+  title: I Will Fear No Evil
+  author: *1
+- &25 !ruby/object:Book
+  title: As I Lay Dying
+  author: *4
+- &20 !ruby/object:Book
+  title: Mother Night
+  author: &7 !ruby/object:Author
+    author_name: Mylene Conn
+    biography: biography
+- &14 !ruby/object:Book
+  title: Great Work of Time
+  author: *5
+- !ruby/object:Book
+  title: The World, the Flesh and the Devil
+  author: &6 !ruby/object:Author
+    author_name: Kurtis Wintheiser
+    biography: biography
+- &17 !ruby/object:Book
+  title: Of Human Bondage
+  author: &87 !ruby/object:Author
+    author_name: Marisol Kassulke
+    biography: biography
+- &46 !ruby/object:Book
+  title: Time To Murder And Create
+  author: &82 !ruby/object:Author
+    author_name: Kaia Hermann
+    biography: biography
+- &16 !ruby/object:Book
+  title: The Millstone
+  author: &9 !ruby/object:Author
+    author_name: Crystel Tillman
+    biography: biography
+- &12 !ruby/object:Book
+  title: The Last Enemy
+  author: *2
+- &30 !ruby/object:Book
+  title: Alone on a Wide, Wide Sea
+  author: *6
+- &29 !ruby/object:Book
+  title: The Heart Is a Lonely Hunter
+  author: &8 !ruby/object:Author
+    author_name: Rowland Effertz
+    biography: biography
+- &19 !ruby/object:Book
+  title: The Last Temptation
+  author: &88 !ruby/object:Author
+    author_name: Kristy Pacocha
+    biography: biography
+- &51 !ruby/object:Book
+  title: The Yellow Meads of Asphodel
+  author: *7
+- &24 !ruby/object:Book
+  title: The Millstone
+  author: *8
+- &37 !ruby/object:Book
+  title: Specimen Days
+  author: *9
+- &13 !ruby/object:Book
+  title: Surprised by Joy
+  author: *3
+orders:
+- !ruby/object:Order
+  book: *10
+  reader: &18 !ruby/object:Reader
+    name: Heber Nader I
+    email: uriel@bergstrom.info
+    city: Port Vallie
+    street: Ruth Forks
+    house: '91487'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *11
+  reader: &15 !ruby/object:Reader
+    name: Sydney Lynch IV
+    email: kathleen@stokes.com
+    city: Howeville
+    street: Reginald Spurs
+    house: '71145'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *12
+  reader: &36 !ruby/object:Reader
+    name: Cecilia Nitzsche
+    email: blanca@witting.org
+    city: Yvonnehaven
+    street: Davis Mews
+    house: '216'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *13
+  reader: &48 !ruby/object:Reader
+    name: Emerald Abshire
+    email: mertie@hoeger.io
+    city: Tannermouth
+    street: Jaqueline Ford
+    house: '96014'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *14
+  reader: *15
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *16
+  reader: &39 !ruby/object:Reader
+    name: Ms. Brody Eichmann
+    email: jeffry@harris.biz
+    city: Kristofferburgh
+    street: Bins Loop
+    house: '2415'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *12
+  reader: &35 !ruby/object:Reader
+    name: Eloisa Connelly
+    email: vaughn_zboncak@stroman.name
+    city: Terryhaven
+    street: Emilie Point
+    house: '23381'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *17
+  reader: *18
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *17
+  reader: &76 !ruby/object:Reader
+    name: Emmanuel Hoeger
+    email: ulises@toy.biz
+    city: Daughertyside
+    street: Hauck Shore
+    house: '29888'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *12
+  reader: &62 !ruby/object:Reader
+    name: Lewis O'Reilly
+    email: beryl_bartell@mcclure.com
+    city: East Brandynside
+    street: Effie Estate
+    house: '91286'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *19
+  reader: &32 !ruby/object:Reader
+    name: Otha Klein
+    email: stuart_yundt@abbottmiller.co
+    city: Lake Arvillamouth
+    street: Isac Cape
+    house: '822'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *13
+  reader: &23 !ruby/object:Reader
+    name: Dr. Lorenz Towne
+    email: brown@pfeffer.info
+    city: Lake Brionnastad
+    street: Kulas Shoal
+    house: '4420'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *20
+  reader: &73 !ruby/object:Reader
+    name: Dr. Savion Wilderman
+    email: alexander@okeefe.biz
+    city: West Alfordstad
+    street: Fernando Bridge
+    house: '2177'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *21
+  reader: &75 !ruby/object:Reader
+    name: Rosalind Schuster
+    email: marguerite_upton@wilkinsonyundt.io
+    city: Eugenetown
+    street: Alexane Ports
+    house: '90291'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *22
+  reader: *23
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *24
+  reader: &78 !ruby/object:Reader
+    name: Denis Fritsch
+    email: antonette@fritschweber.biz
+    city: Bettyhaven
+    street: Dayton Bypass
+    house: '151'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *25
+  reader: &28 !ruby/object:Reader
+    name: Ms. Audie Bauch
+    email: lavon.wisozk@pfefferwunsch.co
+    city: Gabriellechester
+    street: Melody Stravenue
+    house: '9728'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *16
+  reader: &61 !ruby/object:Reader
+    name: Lea Batz
+    email: garrett.collier@lebsack.io
+    city: Lake Mistyside
+    street: Lehner Rapids
+    house: '29928'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *26
+  reader: &74 !ruby/object:Reader
+    name: Braden Herzog
+    email: garnet@gusikowski.net
+    city: New Abraham
+    street: Luther Port
+    house: '97699'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *27
+  reader: *28
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *16
+  reader: &79 !ruby/object:Reader
+    name: Morris McLaughlin DVM
+    email: mario@rosenbaum.biz
+    city: West Betsyside
+    street: Leannon Coves
+    house: '887'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *29
+  reader: *15
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *13
+  reader: &65 !ruby/object:Reader
+    name: Dalton Rice
+    email: margarete@cartwright.net
+    city: Kirlinmouth
+    street: Marcia Land
+    house: '84731'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *30
+  reader: &56 !ruby/object:Reader
+    name: Sydnee Stark I
+    email: justus.stoltenberg@price.info
+    city: New Arnaldo
+    street: O'Conner Key
+    house: '8029'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *21
+  reader: &42 !ruby/object:Reader
+    name: Giovanna Nader
+    email: lilliana_johnston@kuhlman.co
+    city: West Lou
+    street: Jannie Fort
+    house: '409'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *27
+  reader: &69 !ruby/object:Reader
+    name: Lorenzo Tremblay
+    email: rhoda@nicolasbotsford.net
+    city: Coltland
+    street: Zulauf Squares
+    house: '2266'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *16
+  reader: &43 !ruby/object:Reader
+    name: Dayna Hickle
+    email: susie@tillman.co
+    city: Harveyside
+    street: Rosetta Manors
+    house: '19693'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *31
+  reader: &34 !ruby/object:Reader
+    name: Ms. Molly Bins
+    email: tevin@marvin.com
+    city: Dickiport
+    street: Demarco Gardens
+    house: '472'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *21
+  reader: &71 !ruby/object:Reader
+    name: Makenna Weber
+    email: brendon_ruel@boehmsmith.co
+    city: Caspermouth
+    street: Moore Light
+    house: '5910'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *10
+  reader: *32
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *10
+  reader: &57 !ruby/object:Reader
+    name: Bethany Pollich
+    email: darien.ruecker@kozey.info
+    city: West Laceyland
+    street: Matteo Pines
+    house: '850'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *33
+  reader: *34
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *20
+  reader: &38 !ruby/object:Reader
+    name: Elnora MacGyver
+    email: estelle_langworth@oberbrunner.org
+    city: Lake Elva
+    street: Alphonso Lights
+    house: '786'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *20
+  reader: *35
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *31
+  reader: *36
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *37
+  reader: *38
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *12
+  reader: &45 !ruby/object:Reader
+    name: Dr. Nathan Murphy
+    email: evie@cole.org
+    city: Port Lucioberg
+    street: Jessica Manor
+    house: '9747'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *31
+  reader: &70 !ruby/object:Reader
+    name: Isaiah Yost II
+    email: betty.gutmann@brekke.com
+    city: New Mariestad
+    street: Grimes Via
+    house: '34762'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *20
+  reader: &47 !ruby/object:Reader
+    name: Chaim Haag MD
+    email: norval.heller@mayert.org
+    city: Murazikfurt
+    street: Eldora Mountain
+    house: '259'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *12
+  reader: &44 !ruby/object:Reader
+    name: Miguel Kulas
+    email: lilyan@yundt.co
+    city: Quigleyfort
+    street: Leopoldo Lodge
+    house: '1593'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *26
+  reader: &68 !ruby/object:Reader
+    name: Mona Runte
+    email: fidel_kemmer@farrell.biz
+    city: New Llewellyn
+    street: Jess Island
+    house: '7853'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *25
+  reader: *39
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *40
+  reader: &67 !ruby/object:Reader
+    name: Jamir Harber
+    email: shayne@damore.org
+    city: Port Penelopestad
+    street: Ullrich Meadow
+    house: '6213'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *11
+  reader: &54 !ruby/object:Reader
+    name: Milton Stanton
+    email: elmira@hickle.org
+    city: New Muriel
+    street: Lilly Greens
+    house: '6017'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *41
+  reader: &52 !ruby/object:Reader
+    name: Joannie Hoppe
+    email: gloria@dooleygleichner.com
+    city: Jerdeland
+    street: Blair Greens
+    house: '451'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *37
+  reader: &49 !ruby/object:Reader
+    name: Bobby Keeling
+    email: marquis@donnelly.info
+    city: Rempelville
+    street: Nicholas Valleys
+    house: '106'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *25
+  reader: *42
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *22
+  reader: *43
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *30
+  reader: *44
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *25
+  reader: *45
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *46
+  reader: *39
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *22
+  reader: &72 !ruby/object:Reader
+    name: Brooklyn Hamill
+    email: angelita.cremin@kemmer.info
+    city: Kemmershire
+    street: Jaquan Brooks
+    house: '170'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *10
+  reader: *47
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *46
+  reader: *48
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *41
+  reader: *49
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *50
+  reader: *35
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *51
+  reader: *52
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *27
+  reader: &53 !ruby/object:Reader
+    name: Obie Tremblay Jr.
+    email: elinore.monahan@jastkuhn.net
+    city: New Jaronberg
+    street: Bogisich Springs
+    house: '2668'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *33
+  reader: *28
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *16
+  reader: &64 !ruby/object:Reader
+    name: Ms. Forrest Nolan
+    email: aron_lakin@eichmann.com
+    city: West Matilde
+    street: Alvina Divide
+    house: '9218'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *19
+  reader: *53
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *16
+  reader: *44
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *50
+  reader: &58 !ruby/object:Reader
+    name: Addie Feil
+    email: juliet.davis@haag.com
+    city: Bayerhaven
+    street: Erick Crescent
+    house: '19155'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *25
+  reader: *48
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *14
+  reader: *54
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *51
+  reader: &55 !ruby/object:Reader
+    name: Elsa Mante
+    email: zoila@lehner.net
+    city: Sanfordmouth
+    street: Marjory Dale
+    house: '886'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *20
+  reader: *55
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *21
+  reader: *56
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *11
+  reader: &80 !ruby/object:Reader
+    name: Ms. Carolyne Borer
+    email: everardo_schinner@fadel.biz
+    city: Ledafurt
+    street: West Crossing
+    house: '675'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *21
+  reader: *47
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *22
+  reader: *57
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *51
+  reader: *58
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *19
+  reader: *57
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *37
+  reader: *44
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *51
+  reader: &60 !ruby/object:Reader
+    name: Orin Schowalter
+    email: marley.lebsack@rolfson.info
+    city: North Annalisetown
+    street: Mitchell Shore
+    house: '321'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *21
+  reader: *18
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *59
+  reader: *60
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *37
+  reader: *61
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *12
+  reader: *18
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *41
+  reader: *34
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *24
+  reader: *18
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *12
+  reader: *49
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *27
+  reader: *34
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *33
+  reader: *43
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *10
+  reader: *52
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *14
+  reader: *53
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *13
+  reader: *39
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *21
+  reader: *62
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *59
+  reader: *39
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *33
+  reader: *45
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *63
+  reader: *53
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *33
+  reader: *64
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *40
+  reader: &66 !ruby/object:Reader
+    name: Herbert Prosacco
+    email: ike.kautzer@beer.name
+    city: Croninside
+    street: Greenfelder Square
+    house: '847'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *16
+  reader: *45
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *50
+  reader: *65
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *33
+  reader: *52
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *29
+  reader: *57
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *22
+  reader: *35
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *40
+  reader: &77 !ruby/object:Reader
+    name: Gail Grant
+    email: carey.leannon@gleichnerankunding.com
+    city: Torphyville
+    street: Thiel Estates
+    house: '86209'
+  date: '2017-04-23 17:57:00'
+- !ruby/object:Order
+  book: *41
+  reader: *66
+  date: '2017-04-23 17:57:00'
+readers:
+- *48
+- *53
+- *67
+- *15
+- *68
+- *18
+- *35
+- *43
+- *54
+- *47
+- *28
+- *62
+- !ruby/object:Reader
+  name: Wilson Erdman
+  email: cullen@funkhilll.name
+  city: New Margarettberg
+  street: Jacobi Park
+  house: '411'
+- *52
+- !ruby/object:Reader
+  name: Jennifer Altenwerth
+  email: wilson.ko@welch.net
+  city: Loyceberg
+  street: Nathen Field
+  house: '4735'
+- *45
+- !ruby/object:Reader
+  name: Mr. Kristopher Fay
+  email: chance@upton.co
+  city: Romaguerafurt
+  street: Norval Bypass
+  house: '258'
+- *69
+- !ruby/object:Reader
+  name: Octavia Lynch MD
+  email: ceasar@schoenhyatt.info
+  city: Hammesville
+  street: Brown Causeway
+  house: '842'
+- *70
+- *71
+- *57
+- *72
+- *49
+- *42
+- *73
+- !ruby/object:Reader
+  name: Piper Lesch Sr.
+  email: jodie@hoppe.org
+  city: East Chanelmouth
+  street: Blick Viaduct
+  house: '7551'
+- *38
+- *74
+- *56
+- *61
+- *66
+- *75
+- *44
+- *64
+- *36
+- *34
+- *76
+- *77
+- *60
+- *78
+- *79
+- *23
+- *65
+- *39
+- *58
+- *55
+- !ruby/object:Reader
+  name: Ms. Charley Hoeger
+  email: noemi@jakubowski.biz
+  city: North Ciara
+  street: Stroman Club
+  house: '613'
+- *32
+- *80
+authors:
+- *81
+- *82
+- !ruby/object:Author
+  author_name: Miss Osbaldo Kub
+  biography: biography
+- *83
+- *4
+- *1
+- *84
+- *85
+- *86
+- !ruby/object:Author
+  author_name: Courtney Kohler
+  biography: biography
+- !ruby/object:Author
+  author_name: Afton Barton
+  biography: biography
+- *2
+- *5
+- *6
+- *3
+- *87
+- *8
+- *9
+- *7
+- *88
