@@ -26,16 +26,16 @@ class Library
 
   def how_many
     books = find_best(:book, 3)
-    p @orders.select { |order| order.reader if books.include? order.book }
+    @orders.select { |order| order.reader if books.include? order.book }
       .uniq.compact.count
   end
 
   def best_reader
-    puts find_best(:reader)
+    find_best(:reader)
   end
 
   def favorite_book
-    puts find_best(:book)
+    find_best(:book)
   end
 
   private
